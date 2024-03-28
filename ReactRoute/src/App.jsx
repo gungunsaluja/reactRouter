@@ -10,6 +10,14 @@ function App() {
 
   return (
     <div className = "App">
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Support</li>
+          <li>Labs</li>
+        </ul>
+      </nav>
       <Routes>
         <Route path = "/" element ={<div>Home Page</div>}  />
         <Route path = "/support" element ={<Home/>}  />
