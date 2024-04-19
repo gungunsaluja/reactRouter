@@ -7,10 +7,12 @@ import NotFound from './Components/NotFound';
 import Support from './Components/Support';
 import { Link, NavLink } from 'react-router-dom';
 
+
 function App() {
 
 
   // routes is used to navigate between pages and navigations me page reload nhi hona chahiyeee dynamically usi page par changes hote hai
+  // navlink lgane se active class aajatii h so then we can add styling to reflect it
 
   return (
     <div className="App">
