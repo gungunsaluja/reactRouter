@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-const Home = () =>{
+const Mainheader = () =>{
     return (
         <div>
 <Outlet/>
@@ -8,5 +8,5 @@ const Home = () =>{
         </div>
             )
 }
-export default Home
+export default Mainheader
 // if you want that child element should render under parent element then you should give it outlet and if we don't use outlet then child element render hi nhi hopayenge!!!
