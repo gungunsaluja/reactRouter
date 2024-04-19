@@ -7,6 +7,10 @@ const Support = () => {
         // move to labs page
         navigate("/labs");
     }
+    function backHandler()
+    {
+        navigate(-1);
+    }
     return (
         <div>
 
@@ -15,6 +19,7 @@ const Support = () => {
 
             </div>
             <button onClick = {clickHandler}>Move to Labs Page</button>
+            <button onClick = {backHandler}>Go back</button>
         </div>
 
     )
