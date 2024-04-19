@@ -19,7 +19,7 @@ function App() {
           <li><NavLink to ="/">Home</NavLink></li>
           <li><NavLink to = "/about">About</NavLink></li>
           <li><NavLink to = "/support">Support</NavLink></li>
-          <li><NavLink to = "/labs"></NavLink>Labs</li>
+          <li><NavLink to = "/labs">Labs</NavLink></li>
         </ul>
       </nav>
       <Routes>
