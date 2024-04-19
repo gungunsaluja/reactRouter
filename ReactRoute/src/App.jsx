@@ -28,11 +28,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Mainheader />} />
         <Route index element= {<Home/>}></Route>
+        {/* it define root url of the application  */}
         {/* index likhne ka mtlb ye h ki ye default  route hai*/}
         <Route path="/support" element={<Support />} />
         <Route path="/about" element={<About />} />
         <Route path="/labs" element={<Labs />} />
         <Route path="*" element={<NotFound />} />
+        {/* all undefined pathsand it is often used in showing error 404 */}
         {/* iska difference find krooo default line ke sath */}
 
       </Routes>
